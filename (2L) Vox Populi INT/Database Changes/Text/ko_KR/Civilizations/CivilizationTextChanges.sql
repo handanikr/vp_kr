@@ -41,7 +41,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_ROYAL_LIBRARY_STRATEGY';
 
 UPDATE Language_ko_KR
 SET Text = '가능한 테마 보너스:
-  [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]외국 걸작[ENDCOLOR] [ICON_GW_WRITING] 문학 3개에서 [ICON_CULTURE] 문화 +6, [ICON_TOURISM] 관광 +6을 얻습니다.'
+  [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]외국[ENDCOLOR] [ICON_GW_WRITING] 걸작 문학 3개에서 [ICON_CULTURE] 문화 +6, [ICON_TOURISM] 관광 +6을 얻습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_ROYAL_LIBRARY_HELP';
 
 UPDATE Language_ko_KR
@@ -56,7 +56,7 @@ SET Text = '합스부르크 외교술'
 WHERE Tag = 'TXT_KEY_TRAIT_ANNEX_CITY_STATE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_CITY_STATE] 도시 국가 퀘스트 보상이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 5턴 동안 동맹을 맺은 후 [ICON_GOLD] 골드로 [ICON_CITY_STATE] 도시 국가와의 [ICON_RES_MARRIAGE] 결혼을 주선할 수 있습니다. 평화 상태일 때 [ICON_RES_MARRIAGE] 결혼한 도시 국가로부터 200의 휴식 [ICON_INFLUENCE] 영향력을 얻습니다.'
+SET Text = '[ICON_CITY_STATE] 도시 국가 퀘스트 보상이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 10턴 동안 동맹을 맺은 후 [ICON_GOLD] 골드로 [ICON_CITY_STATE] 도시 국가와의 [ICON_RES_MARRIAGE] 결혼을 주선할 수 있습니다. 평화 상태일 때 [ICON_RES_MARRIAGE] 결혼한 도시 국가로부터 200의 휴식 [ICON_INFLUENCE] 영향력을 얻습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_ANNEX_CITY_STATE';
 
 UPDATE Language_ko_KR
@@ -203,7 +203,7 @@ SET Text = '위대한 조상'
 WHERE Tag = 'TXT_KEY_TRAIT_WONDER_BUILDER_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_WONDER] 불가사의 [ICON_PRODUCTION] 생산력이 +20%, [ICON_GOLDEN_AGE] 황금기에는 2배 증가 합니다. 도시를 건설하거나 (누구든지 [COLOR_CYAN]고고학[ENDCOLOR]을 연구하기 전에) [ICON_WONDER] 세계 불가사의를 완성할 때 근처의 [ICON_RES_ARTIFACTS] 고대 유적지를 드러내세요. [ICON_RES_ARTIFACTS] 고대 유적지는 [ICON_GOLDEN_AGE] 황금기가 시작될 때마다 [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_PEACE] 신앙이 +1 증가합니다. (최대 +5)'
+SET Text = '[ICON_WONDER] 불가사의 [ICON_PRODUCTION] 생산력이 +20%, [ICON_GOLDEN_AGE] 황금기에는 2배 증가 합니다. 도시를 건설하거나 (누구든지 [COLOR_CYAN]고고학[ENDCOLOR]에 도달하기 전에) [ICON_WONDER] 세계 불가사의를 완성할 때 근처의 [ICON_RES_ARTIFACTS] 고대 유적지를 드러내세요. [ICON_RES_ARTIFACTS] 고대 유적지는 [ICON_GOLDEN_AGE] 황금기가 시작될 때마다 [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_PEACE] 신앙이 +1 증가합니다. (최대 +5)'
 WHERE Tag = 'TXT_KEY_TRAIT_WONDER_BUILDER';
 
 UPDATE Language_ko_KR
